@@ -1,0 +1,158 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header{
+    margin: auto;
+    width: 80%;
+}
+
+.head-conta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.title {
+    margin: 0;
+    font-size: 24px;
+    color: #007aff;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #69727a;
+    font-weight: bold;
+}
+
+.nav-link:first-child {
+    margin-left: 0;
+}
+
+a input{
+    margin-left: 15px;
+}
+
+/* Hakkında Sayfası */ 
+
+.content{
+    width: 80%;
+    text-align: center;
+}
+
+.content label:first-child{
+    font-weight: bold;
+    font-size: 40px;
+    margin: 80px;
+}
+
+.person{
+    width: 80%;
+    text-align: center;
+}
+
+.info label:first-child{
+    font-weight: bold;
+    font-size: 35px;
+    margin: 60px;
+}
+
+.profil{
+    display: inline-block;
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border: 1px solid lightgray;
+}
+
+.profil:last-child{
+    margin-top: 15px;
+}
+
+#img > img{
+    margin: 30px;
+}
+
+.profil label{
+    font-weight: bold;
+    margin: 10px;
+}
+
+.profil p{
+    padding: 0px 15px 0px 15px;
+    font-size: 15px;
+    color: gray;
+}
+
+.profil input{
+    margin: 20px;
+    color: white;
+}
+
+.contact{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.business label{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 50px 10px 5px 10px;
+}
+
+.business p{
+    font-size: 14px;
+    color: gray;
+}
+
+.inputs{
+    width: 600px;
+    background-color: #f0f0f0;
+}
+
+.forms{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.forms input:first-child{
+    margin: auto;
+}
+
+.forms input:not(.name){
+    width: 90%;
+    margin: 10px auto;
+}
+
+.forms input:last-child{
+    color: white;
+}
+
+.forms input:last-child:hover{
+    color: black;
+}
+
+.forms textarea{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.forms > .name{
+    width: 44.6%;
+    display: inline-block;
+}
+
+.ceo{
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+    margin: 15px;
+}
